@@ -5,8 +5,12 @@
 This project is about to donwload develop resources from the fucking Suguang clac platform.
 
 ## requirements
-```(python)
+```python
 requests
 tqdm
 pandas
+```
+## Usage
+```shell
+python DirWalker.py
 ```
