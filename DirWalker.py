@@ -7,6 +7,9 @@ import os
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor
 import ssl
+import warnings
+
+warnings.filterwarnings("ignore")
 
 ssl._create_default_https_context = ssl._create_unverified_context
 VERIFY_SSL = False
